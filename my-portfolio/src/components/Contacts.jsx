@@ -63,9 +63,9 @@ const showToast = (type) => {
 return (
     <section className="py-32 text-center bg-gray-100 dark:bg-gray-700">
         <h2 className="text-3xl font-bold mb-10">Contact Me</h2>
-        <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-4 max-w-md mx-auto">
-            <input type="text" name="name" placeholder="Your Name" required className="border p-2 rounded" />
-            <input type="email" name="email" placeholder="Your Email" required className="border p-2 rounded" />
+        <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-4 max-w-md mx-auto px-4">
+            <input type="text" name="name" placeholder="Your Name" required className="border p-2 rounded w-full" />
+            <input type="email" name="email" placeholder="Your Email" required className="border p-2 rounded w-full" />
             <textarea name="message" placeholder="Your Message" required className="border text-black p-2 rounded h-32" />
             <button
                 type="submit"

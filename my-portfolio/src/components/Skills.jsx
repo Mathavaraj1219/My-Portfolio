@@ -3,11 +3,11 @@ import { motion } from 'framer-motion';
 
 
 const Skills = () => {
-const skills = ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'MongoDB'];
+
 return (
-    <section className="py-40 text-center bg-gray-300 dark:bg-gray-800">
-        <h2 className="text-3xl font-bold mb-20">Skills</h2>
-        <div className="grid grid-cols-4 gap-16 max-w-5xl mx-auto p-10">
+    <section className="py-20 text-center bg-gray-300 dark:bg-gray-800 px-4">
+        <h2 className="text-2xl sm:text-3xl font-bold mb-12">Skills</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
                 <motion.div className="bg-white dark:bg-gray-700 p-8 rounded-xl shadow-md"
                 initial={{ opacity: 0, x:500, y: -200 }}
                 whileInView={{ opacity: 1, x: 0, y:0 }}

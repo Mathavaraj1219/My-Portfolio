@@ -3,8 +3,8 @@ import { Link } from "react-scroll";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-300 dark:bg-gray-800 py-8 mt-12">
-      <div className="max-w-6xl mx-auto px-6 md:flex md:items-center md:justify-between">
+    <footer className="bg-gray-300 dark:bg-gray-800 py-8 mt-12 px-4">
+      <div className="max-w-6xl mx-auto flex flex-col md:flex-row md:items-center md:justify-between gap-6">
         <div className="text-center md:text-left mb-4 md:mb-0">
           <h2 className="text-2xl ">MATHAVARAJ J</h2>
           <p className="text-sm">Full Stack Developer</p>

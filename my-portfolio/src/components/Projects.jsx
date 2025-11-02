@@ -8,7 +8,7 @@ const Projects = () => {
 return (
     <section className="py-32 bg-gray-100 dark:bg-gray-700 text-center">
         <h2 className="text-3xl font-bold mb-20">Projects</h2>
-        <div className="grid grid-rows-4 gap-6 max-w-5xl mx-auto px-4">
+        <div className="grid grid-cols-1 gap-8 max-w-5xl mx-auto px-4 sm:px-8 md:px-16 lg:px-32">
                 <motion.div className="bg-gray-300 dark:bg-gray-600 p-6 rounded-xl shadow-md"
                     initial={{ opacity: 0, x: -500 }}
                     whileInView={{ opacity: 1, x: 0 }}
