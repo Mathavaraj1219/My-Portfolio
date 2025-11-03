@@ -47,7 +47,7 @@ export default function Footer() {
 
         <div className="flex justify-center space-x-6">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/Mathavaraj1219"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-400 transition"
@@ -55,7 +55,7 @@ export default function Footer() {
             <FaGithub size={20} />
           </a>
           <a
-            href="https://linkedin.com/in/yourprofile"
+            href="https://www.linkedin.com/in/mathavaraj-j-7ba1a91ab"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-400 transition"

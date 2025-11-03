@@ -47,7 +47,7 @@ return (
                         Live Demo
                         </a>
                         <a
-                        href="https://github.com/yourusername/user-management"
+                        href="https://github.com/Mathavaraj1219/Add-User"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="px-5 py-2 bg-gray-400 hover:bg-gray-500 rounded-xl transition-all"
@@ -96,7 +96,7 @@ return (
                         Live Demo
                         </a>
                         <a
-                        href="https://github.com/yourusername/user-management"
+                        href="https://github.com/Mathavaraj1219/JobApplication"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="px-5 py-2 bg-gray-400 hover:bg-gray-500 rounded-xl transition-all"
@@ -149,7 +149,7 @@ return (
                         Live Demo
                         </a>
                         <a
-                        href="https://github.com/yourusername/user-management"
+                        href="https://github.com/Mathavaraj1219/WeatherAndTime"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="px-5 py-2 bg-gray-400 hover:bg-gray-500 rounded-xl transition-all"
@@ -185,8 +185,8 @@ return (
                         <li>Frontend: React.js, TailwindCSS, Framer Motion</li>
                         <li>Routing: React Router DOM + react-scroll</li>
                         <li>Contact: EmailJS integration</li>
-                        <li>Deployment: Vercel / Netlify</li>
-                        <li>Domain: Custom (e.g., <span className="text-blue-400">mathavaraj.dev</span>)</li>
+                        <li>Deployment: Netlify</li>
+                        <li>Domain: https://mathavaraj-portfolio.netlify.app/</li>
                         </ul>
                     </div>
                     <p className="mx-32 mb-3">Building my own portfolio taught me reusable component structure, animations, and hosting setup for production-ready React apps.</p>
@@ -200,7 +200,7 @@ return (
                         Live Demo
                         </a>
                         <a
-                        href="https://github.com/yourusername/user-management"
+                        href="https://github.com/Mathavaraj1219/My-Portfolio"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="px-5 py-2 bg-gray-400 hover:bg-gray-500 rounded-xl transition-all"
