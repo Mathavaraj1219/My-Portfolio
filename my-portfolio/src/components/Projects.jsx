@@ -8,7 +8,7 @@ const Projects = () => {
 return (
     <section className="py-32 bg-gray-100 dark:bg-gray-700 text-center">
         <h2 className="text-3xl font-bold mb-20">Projects</h2>
-        <div className="grid grid-cols-1 gap-8 max-w-5xl mx-auto px-4 sm:px-8 md:px-16 lg:px-32">
+        <div className="grid grid-cols-1 gap-8 max-w-6xl mx-auto px-4 sm:px-8 md:px-16 lg:px-32">
                 <motion.div className="bg-gray-300 dark:bg-gray-600 p-6 rounded-xl shadow-md"
                     initial={{ opacity: 0, x: -500 }}
                     whileInView={{ opacity: 1, x: 0 }}
@@ -182,7 +182,8 @@ return (
                         <FaCodeBranch /> Tech Stack
                         </h3>
                         <ul className="list-disc text-start">
-                        <li>Frontend: React.js, TailwindCSS, Framer Motion</li>
+                        <li>Frontend: React.js, TailwindCSS</li>
+                        <li>Animations: Framer Motion</li>
                         <li>Routing: React Router DOM + react-scroll</li>
                         <li>Contact: EmailJS integration</li>
                         <li>Deployment: Netlify</li>
@@ -201,6 +202,105 @@ return (
                         </a>
                         <a
                         href="https://github.com/Mathavaraj1219/My-Portfolio"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="px-5 py-2 bg-gray-400 hover:bg-gray-500 rounded-xl transition-all"
+                        >
+                        View Code
+                        </a>
+                    </div>
+                </motion.div>
+
+                <motion.div className="bg-gray-300 dark:bg-gray-600 p-6 rounded-xl shadow-md"
+                    initial={{ opacity: 0, x: -500 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 1 }}>
+                    <h3 className="text-2xl font-bold text-blue-600 mb-4">Login with JWT (JSON Web Token)</h3>
+                    <p className="text-gray-600 mx-32 mb-10 dark:text-gray-300">Built a secure user authentication system using JWT (JSON Web Token) and Node.js. Implemented user registration, login, and protected routes with token-based authentication.</p>
+                    <div className="grid grid-cols-2 mx-32 mb-8">
+                        <h3 className="flex items-center gap-2 text-xl font-semibold">
+                        <FaUserCog /> Features
+                        </h3>
+                        <ul className="list-disc text-start">
+                            <li>User registration and login with password hashing using bcrypt.</li>
+                            <li>Token-based authentication with JWT (stored in localStorage).</li>
+                            <li>Built RESTful API endpoints for login, register, and authorization.</li>
+                            <li>Token expiration handling and error messages</li>
+                        </ul>
+                    </div>
+                    <div className="grid grid-cols-2 mx-32 mb-8">
+                        <h3 className="text-xl font-semibold flex items-center gap-2">
+                        <FaCodeBranch /> Tech Stack
+                        </h3>
+                        <ul className="list-disc text-start">
+                        <li>Frontend: React.js, Axios, TailwindCSS</li>
+                        <li>Backend: Node.js, Express.js, CORS</li>
+                        <li>Database: MongoDB</li>
+                        <li>Authentication: JWT, bcrypt.js</li>
+                        </ul>
+                    </div>
+                    <p className="mx-32 mb-3">This project demonstrates how I implemented a secure authentication system using JWT (JSON Web Token) in a MERN stack application. Users can register, log in, and access protected routes only when a valid token is present.</p>
+                    <div className="flex justify-center gap-6 mt-6">
+                        <a
+                        href="https://your-live-demo-link.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="px-5 py-2 bg-blue-500 hover:bg-blue-700 rounded-xl transition-all"
+                        >
+                        Live Demo
+                        </a>
+                        <a
+                        href="https://github.com/Mathavaraj1219/LoginwithJWT"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="px-5 py-2 bg-gray-400 hover:bg-gray-500 rounded-xl transition-all"
+                        >
+                        View Code
+                        </a>
+                    </div>
+                </motion.div>
+
+                <motion.div className="bg-gray-300 dark:bg-gray-600 p-6 rounded-xl shadow-md"
+                    initial={{ opacity: 0, x:500 }}
+                    whileInView={{ opacity: 1, x:0 }}
+                    transition={{ duration: 1.5 }}>
+                    <h3 className="text-2xl font-bold text-blue-600 mb-4">Expense Tracker Web App</h3>
+                    <p className="text-gray-600 mx-32 mb-10 dark:text-gray-300">Developed a full-stack Expense Tracker web application to manage daily income and expenses. Implemented CRUD operations for transactions,summary charts, and persistent data storage using MongoDB. Integrated RESTful APIs for seamless data management.</p>
+                    <div className="grid grid-cols-2 mx-32 mb-8">
+                        <h3 className="flex items-center gap-2 text-xl font-semibold">
+                        <FaUserCog /> Features
+                        </h3>
+                        <ul className="list-disc text-start">
+                            <li>Implemented CRUD operations with RESTful APIs.</li>
+                            <li>Visualize income vs expenses with pie charts using Recharts.</li>
+                            <li>Secure Login and Logout using JWT (JSON Web Token). Password encryption using bcrypt. Token-based authorization for protected routes.</li>
+                            <li>Show the income and expense data with table view.</li>
+                            <li>Integrated Redux for state management.</li>
+                        </ul>
+                    </div>
+                    <div className="grid grid-cols-2 mx-32 mb-8">
+                        <h3 className="text-xl font-semibold flex items-center gap-2">
+                        <FaCodeBranch /> Tech Stack
+                        </h3>
+                        <ul className="list-disc text-start">
+                        <li>Frontend: React.js, Redux Toolkit, Axios, TailwindCSS, Recharts</li>
+                        <li>Backend: Node.js, Express.js, CORS</li>
+                        <li>Database: MongoDB</li>
+                        <li>Authentication: JWT, bcrypt.js</li>
+                        </ul>
+                    </div>
+                    <p className="mx-32 mb-3">I learned how to design and develop a complete MERN stack application with secure authentication, interactive charts. I gained practical experience in backend API development and handling real-world errors</p>
+                    <div className="flex justify-center gap-6 mt-6">
+                        <a
+                        href="https://your-live-demo-link.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="px-5 py-2 bg-blue-500 hover:bg-blue-700 rounded-xl transition-all"
+                        >
+                        Live Demo
+                        </a>
+                        <a
+                        href="https://github.com/Mathavaraj1219/Expense-Tracker"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="px-5 py-2 bg-gray-400 hover:bg-gray-500 rounded-xl transition-all"
