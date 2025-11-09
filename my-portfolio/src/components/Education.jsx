@@ -5,7 +5,7 @@ const Education = () => {
 
 return (
     <section className="py-32 bg-gray-300 dark:bg-gray-800 text-center">
-        <h2 className="text-3xl font-bold mb-20">Education</h2>
+        <h2 className="text-3xl font-bold mb-20">Qualification</h2>
         <div className="grid grid-cols-1 gap-8 max-w-4xl mx-auto px-4 sm:px-8 md:px-16 lg:px-32">
             <motion.div className="bg-white dark:bg-gray-700 p-6 rounded-xl shadow-md"
                     initial={{ opacity: 0, scale: 0 }}

@@ -41,7 +41,7 @@ export default function Footer() {
             duration={500}
             className="hover:text-blue-400 cursor-pointer"
           >
-            Education
+            Qualification
           </Link>
         </div>
 

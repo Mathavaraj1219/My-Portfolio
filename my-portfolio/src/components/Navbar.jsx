@@ -12,7 +12,7 @@ return (
             <Link to="about" smooth duration={500} className="cursor-pointer hover:text-blue-600">About</Link>
             <Link to="skills" smooth duration={500} className="cursor-pointer hover:text-blue-600">Skills</Link>
             <Link to="projects" smooth duration={500} className="cursor-pointer hover:text-blue-600">Projects</Link>
-            <Link to="education" smooth duration={500} className="cursor-pointer hover:text-blue-600">Education</Link>
+            <Link to="education" smooth duration={500} className="cursor-pointer hover:text-blue-600">Qualification</Link>
             <Link to="contact" smooth duration={500} className="cursor-pointer hover:text-blue-600">Contact</Link>
         </div>
         <button onClick={() => setDarkMode(!darkMode)} className="p-2 rounded-full bg-gray-200 ml-2 dark:bg-gray-700">
