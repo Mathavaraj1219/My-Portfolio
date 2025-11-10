@@ -286,10 +286,9 @@ return (
                         <li>Routing: React Router DOM + react-scroll</li>
                         <li>Contact: EmailJS integration</li>
                         <li>Deployment: Netlify</li>
-                        <li>Domain: https://mathavaraj-portfolio.netlify.app/</li>
                         </ul>
                     </div>
-                    <p className="mx-32 mb-3">Building my own portfolio taught me reusable component structure, animations, and hosting setup for production-ready React apps.</p>
+                    <p className="mx-32 mb-3">Building my own portfolio taught me reusable component structure, animations, emailjs integration and Deployment.</p>
                     <div className="flex justify-center gap-6 mt-6">
                         <a
                         href="https://mathavaraj-portfolio.netlify.app/"
