@@ -22,7 +22,7 @@ useEffect(() => {
 
 
 return (
-    <div className="bg-gray-100 overflow-x-hidden dark:bg-gray-700">
+    <div className="bg-gray-100 overflow-x-hidden dark:bg-gray-700 scroll-smooth">
         <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
         <Element name="about"><About /></Element>
         <Element name="skills"><Skills /></Element>
