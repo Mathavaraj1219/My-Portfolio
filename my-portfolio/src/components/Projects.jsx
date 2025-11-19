@@ -8,21 +8,22 @@ return (
     <section className="py-20 bg-gray-100 dark:bg-gray-700 text-center px-4 sm:px-8 md:px-12 lg:px-20">
         <h2 className="text-3xl sm:text-4xl font-bold mb-12">Projects</h2>
         <div className="grid grid-cols-1 gap-12 max-w-6xl mx-auto">
-                <MotionWrapper 
-                    initial={{ opacity: 0, x: -500 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 1 }}>
+                <MotionWrapper
+                    initial={{ opacity: 0, x:-500 }}
+                    whileInView={{ opacity: 1, x:0 }}
+                    transition={{ duration: 1.5 }}>
                     <div className="bg-gray-300 dark:bg-gray-600 p-6 sm:p-8 md:p-10 rounded-xl shadow-md">
-                    <h3 className="text-2xl sm:text-3xl font-bold text-blue-600 mb-4">User Management System</h3>
-                    <p className="text-gray-700 dark:text-gray-300 mb-6 px-10 text-sm sm:text-base md:text-lg">A full-stack web application that allows creating, reading, updating and deleting user details using RESTful APIs. Built with React, Node, Express, and MongoDB.</p>
+                    <h3 className="text-2xl sm:text-3xl font-bold text-blue-600 mb-4">Expense Tracker Web App</h3>
+                    <p className="text-gray-700 dark:text-gray-300 mb-6 px-10 text-sm sm:text-base md:text-lg">Developed a full-stack Expense Tracker web application to manage daily income and expenses. Implemented CRUD operations for transactions,summary charts, and persistent data storage using MongoDB. Integrated RESTful APIs for seamless data management.</p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
                         <h3 className="flex items-center px-20 gap-2 text-xl font-semibold">
                         <FaUserCog /> Features
                         </h3>
                         <ul className="list-disc text-start">
-                            <li>Add, view, update, and delete user details.</li>
-                            <li>Dynamic table display with React state updates.</li>
-                            <li>RESTful API integration (GET, POST, PUT, DELETE).</li>
+                            <li>Implemented CRUD operations with RESTful APIs.</li>
+                            <li>Visualize income vs expenses with pie charts using Recharts.</li>
+                            <li>Secure Login and Logout using JWT (JSON Web Token). Password encryption using bcrypt. Token-based authorization for protected routes.</li>
+                            <li>Show the income and expense data with table view.</li>
                             <li>Integrated Redux for state management.</li>
                         </ul>
                     </div>
@@ -31,15 +32,16 @@ return (
                         <FaCodeBranch /> Tech Stack
                         </h3>
                         <ul className="list-disc text-start">
-                        <li>Backend: Node.js, Express.js</li>
+                        <li>Frontend: React.js, Redux Toolkit, Axios, TailwindCSS, Recharts</li>
+                        <li>Backend: Node.js, Express.js, CORS</li>
                         <li>Database: MongoDB</li>
-                        <li>Frontend: React.js, Redux Toolkit, Axios, TailwindCSS</li>
+                        <li>Authentication: JWT, bcrypt.js</li>
                         </ul>
                     </div>
-                    <p className="text-gray-700 dark:text-gray-300 mb-6 px-10 text-sm sm:text-base md:text-lg">Implementing CRUD operations helped me understand RESTful API design, frontend-backend communication, and state management.</p>
+                    <p className="text-gray-700 dark:text-gray-300 mb-6 px-10 text-sm sm:text-base md:text-lg">I learned how to design and develop a complete MERN stack application with secure authentication, interactive charts. I gained practical experience in backend API development and handling real-world errors</p>
                     <div className="flex flex-wrap justify-center gap-4 mt-6">
                         <a
-                        href="https://drive.google.com/file/d/1KzcfqidfHr6wMFxdru_EHKpy06IZhlt6/view?usp=drive_link"
+                        href="https://drive.google.com/file/d/1bx0fhlJmk01QVbtnuXuKWgbpzVMWctDb/view?usp=drive_link"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="px-5 py-2 bg-blue-500 text-white rounded-xl hover:bg-blue-700 transition-all text-sm sm:text-base"
@@ -47,7 +49,7 @@ return (
                         Demo Video
                         </a>
                         <a
-                        href="https://github.com/Mathavaraj1219/User-management"
+                        href="https://github.com/Mathavaraj1219/Expense-Tracker"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="px-5 py-2 bg-gray-400 text-white rounded-xl hover:bg-gray-500 transition-all text-sm sm:text-base"
@@ -60,6 +62,60 @@ return (
 
                 <MotionWrapper 
                     initial={{ opacity: 0, x:500 }}
+                    whileInView={{ opacity: 1, x:0 }}
+                    transition={{ duration: 1.5 }}>
+                    <div className="bg-gray-300 dark:bg-gray-600 p-6 sm:p-8 md:p-10 rounded-xl shadow-md">
+                    <h3 className="text-2xl sm:text-3xl font-bold text-blue-600 mb-4">Leads Management with Zoho CRM Integration</h3>
+                    <p className="text-gray-700 dark:text-gray-300 mb-6 px-10 text-sm sm:text-base md:text-lg">A full-stack Leads Management System integrated with Zoho CRM, allowing users to analytics, CRUD operations, and export options. All lead data is fully synced with Zoho CRM, making this a complete and professional lead-tracking solution.</p>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
+                        <h3 className="flex items-center px-20 gap-2 text-xl font-semibold">
+                        <FaUserCog /> Features
+                        </h3>
+                        <ul className="list-disc text-start">
+                            <li>Capture leads through a React form.</li>
+                            <li>View leads in card and table formats with inline action buttons (Edit/Delete).</li>
+                            <li>Leads filter by tags and Sort by priority.</li>
+                            <li>Real-time search with debounce by Name, Email and Company.</li>
+                            <li>Lead analytics dashboard Shows number of leads under each tag and Categorizes leads into High / Medium / Low priority.</li>
+                            <li>Update and Delete both local UI and Zoho CRM backend leads.</li>
+                            <li>Creates a clean PDF report, downloadable CSV file and Professionally formatted Excel file of all or specific leads.</li>
+                        </ul>
+                    </div>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
+                        <h3 className="flex items-center px-20 gap-2 text-xl font-semibold">
+                        <FaCodeBranch /> Tech Stack
+                        </h3>
+                        <ul className="list-disc text-start">
+                        <li>Frontend: React.js, Axios, TailwindCSS, Chart.js</li>
+                        <li>Backend: Node.js, Express.js, Axios</li>
+                        <li>Export: FileSaver.js, XLSX library, jsPDF</li>
+                        <li>External Service: Zoho CRM API, Zoho OAuth</li>
+                        </ul>
+                    </div>
+                    <p className="text-gray-700 dark:text-gray-300 mb-6 px-10 text-sm sm:text-base md:text-lg">I learned how to integrate third-party services like Zoho CRM using secure APIs and OAuth token handling. I improved my ability to build full CRUD workflows with real-time synchronization between frontend, backend, and CRM. I gained experience in creating advanced UI features such as filtering, sorting, search, analytics charts, and data export. This project strengthened my full-stack skills and taught me how to design scalable, user-friendly lead management systems.</p>
+                    <div className="flex flex-wrap justify-center gap-4 mt-6">
+                        <a
+                        href="https://drive.google.com/file/d/1HFKKYpEx1coZIgqyOFhusQGBQzaVGULi/view?usp=drive_link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="px-5 py-2 bg-blue-500 text-white rounded-xl hover:bg-blue-700 transition-all text-sm sm:text-base"
+                        >
+                        Demo Video
+                        </a>
+                        <a
+                        href="https://github.com/Mathavaraj1219/leads_management_with_zoho_CRM_integration"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="px-5 py-2 bg-gray-400 text-white rounded-xl hover:bg-gray-500 transition-all text-sm sm:text-base"
+                        >
+                        View Code
+                        </a>
+                    </div>
+                    </div>
+                </MotionWrapper>
+
+                <MotionWrapper 
+                    initial={{ opacity: 0, x:-500 }}
                     whileInView={{ opacity: 1, x:0 }}
                     transition={{ duration: 1.5 }}>
                     <div className="bg-gray-300 dark:bg-gray-600 p-6 sm:p-8 md:p-10 rounded-xl shadow-md">
@@ -110,7 +166,7 @@ return (
                 </MotionWrapper>
 
                 <MotionWrapper 
-                    initial={{ opacity: 0, x: -500 }}
+                    initial={{ opacity: 0, x: 500 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 1 }}>
                     <div className="bg-gray-300 dark:bg-gray-600 p-6 sm:p-8 md:p-10 rounded-xl shadow-md">
@@ -164,7 +220,7 @@ return (
                 </MotionWrapper>
 
                 <MotionWrapper 
-                    initial={{ opacity: 0, x: 500 }}
+                    initial={{ opacity: 0, x: -500 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 1 }}>
                     <div className="bg-gray-300 dark:bg-gray-600 p-6 sm:p-8 md:p-10 rounded-xl shadow-md">
@@ -214,22 +270,21 @@ return (
                     </div>
                 </MotionWrapper>
 
-                <MotionWrapper
-                    initial={{ opacity: 0, x:-500 }}
-                    whileInView={{ opacity: 1, x:0 }}
-                    transition={{ duration: 1.5 }}>
+                <MotionWrapper 
+                    initial={{ opacity: 0, x: 500 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 1 }}>
                     <div className="bg-gray-300 dark:bg-gray-600 p-6 sm:p-8 md:p-10 rounded-xl shadow-md">
-                    <h3 className="text-2xl sm:text-3xl font-bold text-blue-600 mb-4">Expense Tracker Web App</h3>
-                    <p className="text-gray-700 dark:text-gray-300 mb-6 px-10 text-sm sm:text-base md:text-lg">Developed a full-stack Expense Tracker web application to manage daily income and expenses. Implemented CRUD operations for transactions,summary charts, and persistent data storage using MongoDB. Integrated RESTful APIs for seamless data management.</p>
+                    <h3 className="text-2xl sm:text-3xl font-bold text-blue-600 mb-4">User Management System</h3>
+                    <p className="text-gray-700 dark:text-gray-300 mb-6 px-10 text-sm sm:text-base md:text-lg">A full-stack web application that allows creating, reading, updating and deleting user details using RESTful APIs. Built with React, Node, Express, and MongoDB.</p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
                         <h3 className="flex items-center px-20 gap-2 text-xl font-semibold">
                         <FaUserCog /> Features
                         </h3>
                         <ul className="list-disc text-start">
-                            <li>Implemented CRUD operations with RESTful APIs.</li>
-                            <li>Visualize income vs expenses with pie charts using Recharts.</li>
-                            <li>Secure Login and Logout using JWT (JSON Web Token). Password encryption using bcrypt. Token-based authorization for protected routes.</li>
-                            <li>Show the income and expense data with table view.</li>
+                            <li>Add, view, update, and delete user details.</li>
+                            <li>Dynamic table display with React state updates.</li>
+                            <li>RESTful API integration (GET, POST, PUT, DELETE).</li>
                             <li>Integrated Redux for state management.</li>
                         </ul>
                     </div>
@@ -238,16 +293,15 @@ return (
                         <FaCodeBranch /> Tech Stack
                         </h3>
                         <ul className="list-disc text-start">
-                        <li>Frontend: React.js, Redux Toolkit, Axios, TailwindCSS, Recharts</li>
-                        <li>Backend: Node.js, Express.js, CORS</li>
+                        <li>Backend: Node.js, Express.js</li>
                         <li>Database: MongoDB</li>
-                        <li>Authentication: JWT, bcrypt.js</li>
+                        <li>Frontend: React.js, Redux Toolkit, Axios, TailwindCSS</li>
                         </ul>
                     </div>
-                    <p className="text-gray-700 dark:text-gray-300 mb-6 px-10 text-sm sm:text-base md:text-lg">I learned how to design and develop a complete MERN stack application with secure authentication, interactive charts. I gained practical experience in backend API development and handling real-world errors</p>
+                    <p className="text-gray-700 dark:text-gray-300 mb-6 px-10 text-sm sm:text-base md:text-lg">Implementing CRUD operations helped me understand RESTful API design, frontend-backend communication, and state management.</p>
                     <div className="flex flex-wrap justify-center gap-4 mt-6">
                         <a
-                        href="https://drive.google.com/file/d/1bx0fhlJmk01QVbtnuXuKWgbpzVMWctDb/view?usp=drive_link"
+                        href="https://drive.google.com/file/d/1KzcfqidfHr6wMFxdru_EHKpy06IZhlt6/view?usp=drive_link"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="px-5 py-2 bg-blue-500 text-white rounded-xl hover:bg-blue-700 transition-all text-sm sm:text-base"
@@ -255,7 +309,7 @@ return (
                         Demo Video
                         </a>
                         <a
-                        href="https://github.com/Mathavaraj1219/Expense-Tracker"
+                        href="https://github.com/Mathavaraj1219/User-management"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="px-5 py-2 bg-gray-400 text-white rounded-xl hover:bg-gray-500 transition-all text-sm sm:text-base"
@@ -267,7 +321,7 @@ return (
                 </MotionWrapper>
 
                 <MotionWrapper
-                    initial={{ opacity: 0, x:500 }}
+                    initial={{ opacity: 0, x: -500 }}
                     whileInView={{ opacity: 1, x:0 }}
                     transition={{ duration: 1.5 }}>
                     <div className="bg-gray-300 dark:bg-gray-600 p-6 sm:p-8 md:p-10 rounded-xl shadow-md">
