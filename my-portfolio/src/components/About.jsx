@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { FaDownload } from 'react-icons/fa';
+import { HiEye } from "react-icons/hi"; 
 import MotionWrapper from "./motionWrapper";
 
 
@@ -32,13 +33,13 @@ return (
         <motion.a href="/Mathavaraj.j-Resume.pdf" download className="flex items-center justify-center gap-2 bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 transition duration-300"
         whileHover={{ scale: 1.1 }}
         >
-            <FaDownload /> Download Resume
+            <FaDownload className="text-xl"/> Download Resume
         </motion.a>
 
         <motion.a href="/Mathavaraj.j-Resume.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-5 py-2 rounded-lg hover:bg-green-700 transition duration-300"
         whileHover={{ scale: 1.1 }}
         >
-            <FaDownload /> View Resume
+            <HiEye className="text-2xl"/> View Resume
         </motion.a>
     </div>
 </section>

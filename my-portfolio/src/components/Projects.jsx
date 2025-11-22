@@ -1,5 +1,9 @@
 import { FaUserCog, FaCodeBranch } from "react-icons/fa";
+import { MdOndemandVideo  } from "react-icons/md";
 import MotionWrapper from "./motionWrapper";
+import { FiExternalLink } from "react-icons/fi";   
+import { RiLiveLine } from "react-icons/ri";   
+
 
 const Projects = () => {
 
@@ -44,16 +48,18 @@ return (
                         href="https://drive.google.com/file/d/1bx0fhlJmk01QVbtnuXuKWgbpzVMWctDb/view?usp=drive_link"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="px-5 py-2 bg-blue-500 text-white rounded-xl hover:bg-blue-700 transition-all text-sm sm:text-base"
+                        className="flex items-center justify-center gap-2 px-5 py-2 bg-blue-500 text-white rounded-xl hover:bg-blue-700 transition-all text-sm sm:text-base"
                         >
+                        <MdOndemandVideo className="text-xl"/>
                         Demo Video
                         </a>
                         <a
                         href="https://github.com/Mathavaraj1219/Expense-Tracker"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="px-5 py-2 bg-gray-400 text-white rounded-xl hover:bg-gray-500 transition-all text-sm sm:text-base"
+                        className="flex items-center justify-center gap-2 px-5 py-2 bg-gray-400 text-white rounded-xl hover:bg-gray-500 transition-all text-sm sm:text-base"
                         >
+                        <FiExternalLink className="text-xl"/>
                         View Code
                         </a>
                     </div>
@@ -98,16 +104,18 @@ return (
                         href="https://drive.google.com/file/d/1HFKKYpEx1coZIgqyOFhusQGBQzaVGULi/view?usp=drive_link"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="px-5 py-2 bg-blue-500 text-white rounded-xl hover:bg-blue-700 transition-all text-sm sm:text-base"
+                        className="flex items-center justify-center gap-2 px-5 py-2 bg-blue-500 text-white rounded-xl hover:bg-blue-700 transition-all text-sm sm:text-base"
                         >
+                        <MdOndemandVideo className="text-xl"/>
                         Demo Video
                         </a>
                         <a
                         href="https://github.com/Mathavaraj1219/leads_management_with_zoho_CRM_integration"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="px-5 py-2 bg-gray-400 text-white rounded-xl hover:bg-gray-500 transition-all text-sm sm:text-base"
+                        className="flex items-center justify-center gap-2 px-5 py-2 bg-gray-400 text-white rounded-xl hover:bg-gray-500 transition-all text-sm sm:text-base"
                         >
+                        <FiExternalLink className="text-xl"/>
                         View Code
                         </a>
                     </div>
@@ -149,16 +157,18 @@ return (
                         href="https://drive.google.com/file/d/1LH56vbCjRZf3e0l8sCmd5zERK6PHo_TF/view?usp=drive_link"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="px-5 py-2 bg-blue-500 text-white rounded-xl hover:bg-blue-700 transition-all text-sm sm:text-base"
+                        className="flex items-center justify-center gap-2 px-5 py-2 bg-blue-500 text-white rounded-xl hover:bg-blue-700 transition-all text-sm sm:text-base"
                         >
+                        <MdOndemandVideo className="text-xl"/>
                         Demo Video
                         </a>
                         <a
                         href="https://github.com/Mathavaraj1219/JobApplication"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="px-5 py-2 bg-gray-400 text-white rounded-xl hover:bg-gray-500 transition-all text-sm sm:text-base"
+                        className="flex items-center justify-center gap-2 px-5 py-2 bg-gray-400 text-white rounded-xl hover:bg-gray-500 transition-all text-sm sm:text-base"
                         >
+                        <FiExternalLink className="text-xl"/>
                         View Code
                         </a>
                     </div>
@@ -203,16 +213,18 @@ return (
                         href="https://drive.google.com/file/d/10XGZvBioqWTrPrf9SqVbLvlq-JU5JKGR/view?usp=drive_link"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="px-5 py-2 bg-blue-500 text-white rounded-xl hover:bg-blue-700 transition-all text-sm sm:text-base"
+                        className="flex items-center justify-center gap-2 px-5 py-2 bg-blue-500 text-white rounded-xl hover:bg-blue-700 transition-all text-sm sm:text-base"
                         >
+                        <MdOndemandVideo className="text-xl"/>
                         Demo Video
                         </a>
                         <a
                         href="https://github.com/Mathavaraj1219/WeatherAndTime"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="px-5 py-2 bg-gray-400 text-white rounded-xl hover:bg-gray-500 transition-all text-sm sm:text-base"
+                        className="flex items-center justify-center gap-2 px-5 py-2 bg-gray-400 text-white rounded-xl hover:bg-gray-500 transition-all text-sm sm:text-base"
                         >
+                        <FiExternalLink className="text-xl"/>
                         View Code
                         </a>
                     </div>
@@ -254,16 +266,18 @@ return (
                         href="https://drive.google.com/file/d/1JumjHai6G6wRIkvvU7DSEnpj6tnjVhXk/view?usp=drive_link"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="px-5 py-2 bg-blue-500 text-white rounded-xl hover:bg-blue-700 transition-all text-sm sm:text-base"
+                        className="flex items-center justify-center gap-2 px-5 py-2 bg-blue-500 text-white rounded-xl hover:bg-blue-700 transition-all text-sm sm:text-base"
                         >
+                        <MdOndemandVideo className="text-xl"/>
                         Demo Video
                         </a>
                         <a
                         href="https://github.com/Mathavaraj1219/LoginwithJWT"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="px-5 py-2 bg-gray-400 text-white rounded-xl hover:bg-gray-500 transition-all text-sm sm:text-base"
+                        className="flex items-center justify-center gap-2 px-5 py-2 bg-gray-400 text-white rounded-xl hover:bg-gray-500 transition-all text-sm sm:text-base"
                         >
+                        <FiExternalLink className="text-xl"/>
                         View Code
                         </a>
                     </div>
@@ -304,16 +318,18 @@ return (
                         href="https://drive.google.com/file/d/1KzcfqidfHr6wMFxdru_EHKpy06IZhlt6/view?usp=drive_link"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="px-5 py-2 bg-blue-500 text-white rounded-xl hover:bg-blue-700 transition-all text-sm sm:text-base"
+                        className="flex items-center justify-center gap-2 px-5 py-2 bg-blue-500 text-white rounded-xl hover:bg-blue-700 transition-all text-sm sm:text-base"
                         >
+                        <MdOndemandVideo className="text-xl"/>
                         Demo Video
                         </a>
                         <a
                         href="https://github.com/Mathavaraj1219/User-management"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="px-5 py-2 bg-gray-400 text-white rounded-xl hover:bg-gray-500 transition-all text-sm sm:text-base"
+                        className="flex items-center justify-center gap-2 px-5 py-2 bg-gray-400 text-white rounded-xl hover:bg-gray-500 transition-all text-sm sm:text-base"
                         >
+                        <FiExternalLink className="text-xl"/>
                         View Code
                         </a>
                     </div>
@@ -357,16 +373,18 @@ return (
                         href="https://mathavaraj-portfolio.netlify.app/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="px-5 py-2 bg-blue-500 text-white rounded-xl hover:bg-blue-700 transition-all text-sm sm:text-base"
+                        className="flex items-center justify-center gap-2 px-5 py-2 bg-blue-500 text-white rounded-xl hover:bg-blue-700 transition-all text-sm sm:text-base"
                         >
+                        <RiLiveLine className="text-xl"/>
                         Live Demo
                         </a>
                         <a
                         href="https://github.com/Mathavaraj1219/My-Portfolio"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="px-5 py-2 bg-gray-400 text-white rounded-xl hover:bg-gray-500 transition-all text-sm sm:text-base"
+                        className="flex items-center justify-center gap-2 px-5 py-2 bg-gray-400 text-white rounded-xl hover:bg-gray-500 transition-all text-sm sm:text-base"
                         >
+                        <FiExternalLink className="text-xl"/>
                         View Code
                         </a>
                     </div>

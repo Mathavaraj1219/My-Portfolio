@@ -6,3 +6,54 @@
 body {
 @apply bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-100;
 }
+
+.multi-border {
+  position: relative;
+  padding: 3px;
+}
+
+.multi-border::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 3px;
+  border-radius: 9999px;
+  background: conic-gradient(rgb(239, 50, 50), rgb(39, 237, 39), rgb(42, 42, 203), rgb(248, 248, 52));
+  animation: rotate 3s linear infinite;
+  z-index: -1;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.pulse-hover:hover {
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0px rgba(33, 245, 79, 0.7);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgb(35, 226, 64);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0px rgba(19, 237, 66, 0.7);
+  }
+}
+
+
+.glow-effect {
+  transition: box-shadow 0.3s ease;
+}
+
+.glow-effect:hover {
+  box-shadow: 0 0 12px rgba(37, 226, 56, 0.858);
+}
