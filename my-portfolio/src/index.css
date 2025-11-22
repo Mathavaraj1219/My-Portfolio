@@ -18,7 +18,7 @@ body {
   inset: 0;
   padding: 3px;
   border-radius: 9999px;
-  background: conic-gradient(rgb(239, 50, 50), rgb(39, 237, 39), rgb(42, 42, 203), rgb(248, 248, 52));
+  background: conic-gradient(rgb(239, 50, 50), rgb(39, 237, 39), rgb(42, 42, 203), rgb(248, 248, 52), rgb(239, 50, 50));
   animation: rotate 3s linear infinite;
   z-index: -1;
 }
