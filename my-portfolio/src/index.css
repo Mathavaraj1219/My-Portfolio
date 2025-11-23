@@ -63,7 +63,15 @@ body {
 }
 
 .glow-effect-img {
-  box-shadow: 0 0 15px rgba(37, 226, 56, 0.858);
+  box-shadow: 0 0 20px rgba(37, 226, 56, 0.858);
+}
+
+.glow-effect-button {
+  transition: box-shadow 0.3s ease;
+}
+
+.glow-effect-button:hover {
+  box-shadow: 0 0 20px rgba(228, 243, 67, 0.896);
 }
 
 .antimulti-border {

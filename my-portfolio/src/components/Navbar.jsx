@@ -57,7 +57,7 @@ return (
                 MATHAVARAJ J
               </h3>
 
-              <p className="text-center text-gray-600 dark:text-gray-300 text-sm mt-1">
+              <p className="bg-gradient-to-r from-red-400 via-green-600 via-blue-600 via-yellow-600 to-purple-600 bg-clip-text text-transparent text-center text-sm font-semibold mt-1">
                 Full Stack Developer | React & Node.js Enthusiast
               </p>
 

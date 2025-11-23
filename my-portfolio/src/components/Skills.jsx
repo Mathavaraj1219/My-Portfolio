@@ -22,7 +22,7 @@ return (
                 initial={{ opacity: 0, x:500, y: -200 }}
                 whileInView={{ opacity: 1, x: 0, y:0 }}
                 transition={{ duration: 1 }}>
-                    <div className="bg-white text-center dark:bg-gray-700 p-5 rounded-xl shadow-md h-full">
+                    <div className="bg-white text-center dark:bg-gray-700 p-5 rounded-xl glow-effect shadow-md h-full">
                     <h3 className="text-xl text-center font-semibold text-blue-600 mb-4">Frontend</h3>
                     <ul>
                         <div className="grid grid-cols-1 ps-5">
@@ -50,7 +50,7 @@ return (
                 initial={{ opacity: 0, x:-500, y: 200 }}
                 whileInView={{ opacity: 1, x: 0, y:0 }}
                 transition={{ duration: 1 }}>
-                    <div className="bg-white dark:bg-gray-700 p-6 rounded-xl shadow-md h-full">
+                    <div className="bg-white dark:bg-gray-700 p-6 rounded-xl glow-effect shadow-md h-full">
                     <h3 className="text-xl text-center font-semibold text-blue-600 mb-4">Backend</h3>
                     <ul>
                         <div className="grid grid-cols-1 ps-5">
@@ -69,7 +69,7 @@ return (
                 initial={{ opacity: 0, x:500, y: -200 }}
                 whileInView={{ opacity: 1, x: 0, y:0 }}
                 transition={{ duration: 1 }}>
-                    <div className="bg-white dark:bg-gray-700 p-5 rounded-xl shadow-md h-full">
+                    <div className="bg-white dark:bg-gray-700 p-5 rounded-xl glow-effect shadow-md h-full">
                     <h3 className="text-xl text-center font-semibold text-blue-600 mb-4">Database</h3>
                     <ul>
                         <div className="grid grid-cols-1 ps-5">
@@ -88,7 +88,7 @@ return (
                 initial={{ opacity: 0, x:-500, y: 200 }}
                 whileInView={{ opacity: 1, x: 0, y:0 }}
                 transition={{ duration: 1 }}>
-                    <div className="bg-white dark:bg-gray-700 p-6 rounded-xl shadow-md h-full">
+                    <div className="bg-white dark:bg-gray-700 p-6 rounded-xl glow-effect shadow-md h-full">
                     <h3 className="text-xl text-center font-semibold text-blue-600 mb-4">Tools</h3>
                     <ul>
                         <div className="grid grid-cols-1 ps-5">
