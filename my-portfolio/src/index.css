@@ -74,6 +74,14 @@ body {
   box-shadow: 0 0 20px rgba(228, 243, 67, 0.896);
 }
 
+.glow-effect-card {
+  transition: box-shadow 0.3s ease;
+}
+
+.glow-effect-card:hover {
+  box-shadow: 0 0 20px rgba(58, 41, 237, 0.896);
+}
+
 .antimulti-border {
   position: relative;
   padding: 4px;

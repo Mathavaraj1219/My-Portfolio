@@ -72,7 +72,7 @@ return (
                 href="https://www.linkedin.com/in/mathavaraj-j-7ba1a91ab"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center gap-2 text-center hover:text-blue-500 text-sm mt-3"
+                className="flex items-center justify-center gap-2 text-center hover:text-blue-500 text-sm mt-3 underline underline-offset-2"
             >
                 <FaLinkedin className="text-md" />LinkedIn
             </a>
@@ -80,7 +80,7 @@ return (
                 href="https://github.com/Mathavaraj1219"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center gap-2 text-center hover:text-blue-500 text-sm mt-3"
+                className="flex items-center justify-center gap-2 text-center hover:text-blue-500 text-sm mt-3 underline underline-offset-2"
             >
                 <FaGithub className="text-md" />GitHub
             </a>
