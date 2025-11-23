@@ -42,10 +42,10 @@ return (
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.9, y: -10 }}
               transition={{ duration: 0.2 }}
-              className="absolute left-2 top-20 z-[999] h-96 w-96 bg-white dark:bg-gray-800 shadow-xl rounded-xl p-4 border border-gray-200 dark:border-gray-700"
+              className="absolute left-2 top-20 z-[999] h-auto w-96 bg-white dark:bg-gray-800 shadow-xl rounded-xl p-4 border border-gray-200 dark:border-gray-700"
             >
 
-              <div className="relative w-32 h-32 mx-auto rounded-full multi-border glow-effect">
+              <div className="relative w-40 h-40 mx-auto rounded-full antimulti-border glow-effect-img">
                 <img
                   src="/profile.png"
                   alt="profile"
@@ -53,7 +53,7 @@ return (
                 />
               </div>
 
-              <h3 className="text-center mt-3 text-xl font-bold">
+              <h3 className="bg-gradient-to-r from-indigo-600 via-green-600 via-blue-600 via-green-600 to-indio-600 bg-clip-text text-transparent text-center mt-3 text-xl font-bold">
                 MATHAVARAJ J
               </h3>
 

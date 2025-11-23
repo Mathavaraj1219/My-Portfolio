@@ -57,3 +57,33 @@ body {
 .glow-effect:hover {
   box-shadow: 0 0 12px rgba(37, 226, 56, 0.858);
 }
+
+.glow-effect-img {
+  transition: box-shadow 0.3s ease;
+}
+
+.glow-effect-img {
+  box-shadow: 0 0 15px rgba(37, 226, 56, 0.858);
+}
+
+.antimulti-border {
+  position: relative;
+  padding: 4px;
+}
+
+.antimulti-border::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 4px;
+  border-radius: 9999px;
+  background: conic-gradient(rgb(239, 50, 50), rgb(39, 237, 39), rgb(42, 42, 203), rgb(248, 248, 52), rgb(239, 50, 50));
+  animation: rotate-ac 3s linear infinite;
+  z-index: -1;
+}
+
+@keyframes rotate-ac {
+  100% {
+    transform: rotate(-360deg);
+  }
+}

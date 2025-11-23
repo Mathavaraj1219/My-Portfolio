@@ -368,16 +368,7 @@ return (
                         </ul>
                     </div>
                     <p className="text-gray-700 dark:text-gray-300 mb-6 px-10 text-sm sm:text-base md:text-lg">Building my own portfolio taught me reusable component structure, animations, emailjs integration and Deployment.</p>
-                    <div className="flex flex-wrap justify-center gap-4 mt-6">
-                        <a
-                        href="https://mathavaraj-portfolio.netlify.app/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center justify-center gap-2 px-5 py-2 bg-blue-500 text-white rounded-xl hover:bg-blue-700 transition-all text-sm sm:text-base"
-                        >
-                        <RiLiveLine className="text-xl"/>
-                        Live Demo
-                        </a>
+                    <div className="flex justify-center mt-6">
                         <a
                         href="https://github.com/Mathavaraj1219/My-Portfolio"
                         target="_blank"
