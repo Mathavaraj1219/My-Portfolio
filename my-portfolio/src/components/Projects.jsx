@@ -16,7 +16,7 @@ return (
                     whileInView={{ opacity: 1, x:0 }}
                     transition={{ duration: 1.5 }}>
                     <div className="bg-gray-300 dark:bg-gray-600 p-6 sm:p-8 md:p-10 rounded-xl shadow-md">
-                    <h3 className="text-2xl sm:text-3xl font-bold text-blue-600 mb-4">Expense Tracker Web App</h3>
+                    <h3 className="text-2xl sm:text-3xl font-bold text-blue-600 mb-4 dark:text-black/70">Expense Tracker Web App</h3>
                     <p className="text-gray-700 dark:text-gray-300 mb-6 px-10 text-sm sm:text-base md:text-lg">Developed a full-stack Expense Tracker web application to manage daily income and expenses. Implemented CRUD operations for transactions,summary charts, and persistent data storage using MongoDB. Integrated RESTful APIs for seamless data management.</p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
                         <h3 className="flex items-center px-20 gap-2 text-xl font-semibold">
@@ -50,7 +50,7 @@ return (
                         className="flex items-center justify-center gap-2 px-5 py-2 bg-blue-500 text-white rounded-xl glow-effect-button hover:bg-blue-700 transition-all text-sm sm:text-base"
                         >
                         <MdOndemandVideo className="text-xl"/>
-                        Demo Video
+                        Quick Demo
                         </a>
                         <a
                         href="https://github.com/Mathavaraj1219/Expense-Tracker"
@@ -70,7 +70,7 @@ return (
                     whileInView={{ opacity: 1, x:0 }}
                     transition={{ duration: 1.5 }}>
                     <div className="bg-gray-300 dark:bg-gray-600 p-6 sm:p-8 md:p-10 rounded-xl shadow-md">
-                    <h3 className="text-2xl sm:text-3xl font-bold text-blue-600 mb-4">Leads Management with Zoho CRM Integration</h3>
+                    <h3 className="text-2xl sm:text-3xl font-bold text-blue-600 mb-4 dark:text-black/70">Leads Management with Zoho CRM Integration</h3>
                     <p className="text-gray-700 dark:text-gray-300 mb-6 px-10 text-sm sm:text-base md:text-lg">A full-stack Leads Management System integrated with Zoho CRM, allowing users to analytics, CRUD operations, and export options. All lead data is fully synced with Zoho CRM, making this a complete and professional lead-tracking solution.</p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
                         <h3 className="flex items-center px-20 gap-2 text-xl font-semibold">
@@ -106,7 +106,7 @@ return (
                         className="flex items-center justify-center gap-2 px-5 py-2 bg-blue-500 text-white rounded-xl glow-effect-button hover:bg-blue-700 transition-all text-sm sm:text-base"
                         >
                         <MdOndemandVideo className="text-xl"/>
-                        Demo Video
+                        Quick Demo
                         </a>
                         <a
                         href="https://github.com/Mathavaraj1219/leads_management_with_zoho_CRM_integration"
@@ -126,7 +126,7 @@ return (
                     whileInView={{ opacity: 1, x:0 }}
                     transition={{ duration: 1.5 }}>
                     <div className="bg-gray-300 dark:bg-gray-600 p-6 sm:p-8 md:p-10 rounded-xl shadow-md">
-                    <h3 className="text-2xl sm:text-3xl font-bold text-blue-600 mb-4">Job Application Form</h3>
+                    <h3 className="text-2xl sm:text-3xl font-bold text-blue-600 mb-4 dark:text-black/70">Job Application Form</h3>
                     <p className="text-gray-700 dark:text-gray-300 mb-6 px-10 text-sm sm:text-base md:text-lg">A job application form that collects user details such as name, email, experience, resume and data submission to a backend API. Built with React and Node.js.</p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
                         <h3 className="flex items-center px-20 gap-2 text-xl font-semibold">
@@ -159,7 +159,7 @@ return (
                         className="flex items-center justify-center gap-2 px-5 py-2 bg-blue-500 text-white rounded-xl glow-effect-button hover:bg-blue-700 transition-all text-sm sm:text-base"
                         >
                         <MdOndemandVideo className="text-xl"/>
-                        Demo Video
+                        Quick Demo
                         </a>
                         <a
                         href="https://github.com/Mathavaraj1219/JobApplication"
@@ -179,7 +179,7 @@ return (
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 1 }}>
                     <div className="bg-gray-300 dark:bg-gray-600 p-6 sm:p-8 md:p-10 rounded-xl shadow-md">
-                    <h3 className="text-2xl sm:text-3xl font-bold text-blue-600 mb-4">Weather And Real Time App</h3>
+                    <h3 className="text-2xl sm:text-3xl font-bold text-blue-600 mb-4 dark:text-black/70">Weather And Real Time App</h3>
                     <p className="text-gray-700 dark:text-gray-300 mb-6 px-10 text-sm sm:text-base md:text-lg">A real-time weather and time tracking application that displays current temperature, humidity, wind speed for any country's cities and local time for any country. Built using React, Redux, react countries-and-timezones and Open-meteo API.</p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
                         <h3 className="flex items-center px-20 gap-2 text-xl font-semibold">
@@ -215,7 +215,7 @@ return (
                         className="flex items-center justify-center gap-2 px-5 py-2 bg-blue-500 text-white rounded-xl glow-effect-button hover:bg-blue-700 transition-all text-sm sm:text-base"
                         >
                         <MdOndemandVideo className="text-xl"/>
-                        Demo Video
+                        Quick Demo
                         </a>
                         <a
                         href="https://github.com/Mathavaraj1219/WeatherAndTime"
@@ -235,7 +235,7 @@ return (
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 1 }}>
                     <div className="bg-gray-300 dark:bg-gray-600 p-6 sm:p-8 md:p-10 rounded-xl shadow-md">
-                    <h3 className="text-2xl sm:text-3xl font-bold text-blue-600 mb-4">Login with JWT (JSON Web Token)</h3>
+                    <h3 className="text-2xl sm:text-3xl font-bold text-blue-600 mb-4 dark:text-black/70">Login with JWT (JSON Web Token)</h3>
                     <p className="text-gray-700 dark:text-gray-300 mb-6 px-10 text-sm sm:text-base md:text-lg">Built a secure user authentication system using JWT (JSON Web Token) and Node.js. Implemented user registration, login, and protected routes with token-based authentication.</p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
                         <h3 className="flex items-center px-20 gap-2 text-xl font-semibold">
@@ -268,7 +268,7 @@ return (
                         className="flex items-center justify-center gap-2 px-5 py-2 bg-blue-500 text-white rounded-xl glow-effect-button hover:bg-blue-700 transition-all text-sm sm:text-base"
                         >
                         <MdOndemandVideo className="text-xl"/>
-                        Demo Video
+                        Quick Demo
                         </a>
                         <a
                         href="https://github.com/Mathavaraj1219/LoginwithJWT"
@@ -288,7 +288,7 @@ return (
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 1 }}>
                     <div className="bg-gray-300 dark:bg-gray-600 p-6 sm:p-8 md:p-10 rounded-xl shadow-md">
-                    <h3 className="text-2xl sm:text-3xl font-bold text-blue-600 mb-4">User Management System</h3>
+                    <h3 className="text-2xl sm:text-3xl font-bold text-blue-600 mb-4 dark:text-black/70">User Management System</h3>
                     <p className="text-gray-700 dark:text-gray-300 mb-6 px-10 text-sm sm:text-base md:text-lg">A full-stack web application that allows creating, reading, updating and deleting user details using RESTful APIs. Built with React, Node, Express, and MongoDB.</p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
                         <h3 className="flex items-center px-20 gap-2 text-xl font-semibold">
@@ -320,7 +320,7 @@ return (
                         className="flex items-center justify-center gap-2 px-5 py-2 bg-blue-500 text-white rounded-xl glow-effect-button hover:bg-blue-700 transition-all text-sm sm:text-base"
                         >
                         <MdOndemandVideo className="text-xl"/>
-                        Demo Video
+                        Quick Demo
                         </a>
                         <a
                         href="https://github.com/Mathavaraj1219/User-management"
@@ -340,7 +340,7 @@ return (
                     whileInView={{ opacity: 1, x:0 }}
                     transition={{ duration: 1.5 }}>
                     <div className="bg-gray-300 dark:bg-gray-600 p-6 sm:p-8 md:p-10 rounded-xl shadow-md">
-                    <h3 className="text-2xl sm:text-3xl font-bold text-blue-600 mb-4">Personal Portfolio Website</h3>
+                    <h3 className="text-2xl sm:text-3xl font-bold text-blue-600 mb-4 dark:text-black/70">Personal Portfolio Website</h3>
                     <p className="text-gray-700 dark:text-gray-300 mb-6 px-10 text-sm sm:text-base md:text-lg">A responsive, interactive portfolio built with React, TailwindCSS, and Framer Motion. Includes sections for projects, contact, resume, and smooth scroll animations.</p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
                         <h3 className="flex items-center px-20 gap-2 text-xl font-semibold">

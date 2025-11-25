@@ -45,12 +45,12 @@ export default function Footer() {
           </Link>
         </div>
 
-        <div className="flex justify-center space-x-6">
+        <div className="flex justify-center space-x-2">
           <a
             href="https://github.com/Mathavaraj1219"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-blue-400 transition"
+            className="p-2 rounded-full bg-gray-200 dark:bg-gray-700 hover:text-blue-400 transition"
           >
             <FaGithub size={20} />
           </a>
@@ -58,13 +58,13 @@ export default function Footer() {
             href="https://www.linkedin.com/in/mathavaraj-j-7ba1a91ab"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-blue-400 transition"
+            className="p-2 rounded-full bg-gray-200 dark:bg-gray-700 hover:text-blue-400 transition"
           >
             <FaLinkedin size={20} />
           </a>
           <a
             href="mailto:mathavarajya1219@gmail.com"
-            className="hover:text-blue-400 transition"
+            className="p-2 rounded-full bg-gray-200 dark:bg-gray-700 hover:text-blue-400 transition"
           >
             <FaEnvelope size={20} />
           </a>

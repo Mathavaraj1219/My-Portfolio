@@ -90,12 +90,12 @@ return (
         </AnimatePresence>
         <h1 className="text-2xl md:text-2xl font-bold text-blue-600">MyPortfolio</h1>
         </div>
-        <div className="hidden md:flex gap-8 text-gray-700 dark:text-gray-200">
-            <Link to="about" smooth duration={500} className="flex items-center justify-center gap-1 text-bold cursor-pointer hover:text-blue-600"><FaUserCircle className="text-xl"/>About</Link>
-            <Link to="skills" smooth duration={500} className="flex items-center justify-center gap-1 text-bold cursor-pointer hover:text-blue-600"><GiSkills className="text-xl"/>Skills</Link>
-            <Link to="projects" smooth duration={500} className="flex items-center justify-center gap-1 text-bold cursor-pointer hover:text-blue-600"><BsKanban className="text-xl"/>Projects</Link>
-            <Link to="education" smooth duration={500} className="flex items-center justify-center gap-1 text-bold cursor-pointer hover:text-blue-600"><FaGraduationCap className="text-xl"/>Qualification</Link>
-            <Link to="contact" smooth duration={500} className="flex items-center justify-center gap-1 text-bold cursor-pointer hover:text-blue-600"><MdContactMail className="text-xl"/>Contact</Link>
+        <div className="hidden md:flex gap-10 text-gray-700 dark:text-gray-200">
+            <Link to="about" smooth duration={500} className="flex items-center justify-center gap-2 text-bold cursor-pointer hover:text-blue-600"><FaUserCircle className="text-xl"/>About</Link>
+            <Link to="skills" smooth duration={500} className="flex items-center justify-center gap-2 text-bold cursor-pointer hover:text-blue-600"><GiSkills className="text-xl"/>Skills</Link>
+            <Link to="projects" smooth duration={500} className="flex items-center justify-center gap-2 text-bold cursor-pointer hover:text-blue-600"><BsKanban className="text-xl"/>Projects</Link>
+            <Link to="education" smooth duration={500} className="flex items-center justify-center gap-2 text-bold cursor-pointer hover:text-blue-600"><FaGraduationCap className="text-xl"/>Qualification</Link>
+            <Link to="contact" smooth duration={500} className="flex items-center justify-center gap-2 text-bold cursor-pointer hover:text-blue-600"><MdContactMail className="text-xl"/>Contact</Link>
         </div>
         <button onClick={() => setDarkMode(!darkMode)} className="p-2 rounded-full bg-gray-200 ml-2 dark:bg-gray-700">
             {darkMode ? <FaSun className="text-yellow-400" /> : <FaMoon className="text-gray-800" />}

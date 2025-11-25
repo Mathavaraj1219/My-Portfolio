@@ -71,7 +71,7 @@ body {
 }
 
 .glow-effect-button:hover {
-  box-shadow: 0 0 20px rgba(228, 243, 67, 0.896);
+  box-shadow: 0 0 30px rgba(228, 243, 67, 0.896);
 }
 
 .glow-effect-card {
