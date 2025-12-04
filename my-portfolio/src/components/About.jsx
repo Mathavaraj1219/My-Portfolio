@@ -30,13 +30,13 @@ return (
 
 
     <div className="flex flex-col sm:flex-row gap-4 flex-wrap justify-center">
-        <motion.a href="/Mathavaraj.j-Resume.pdf" download className="flex items-center justify-center gap-2 bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 transition duration-300"
+        <motion.a href="/MATHAVARAJ-J--Resume.pdf" download className="flex items-center justify-center gap-2 bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 transition duration-300"
         whileHover={{ scale: 1.1 }}
         >
             <FaDownload className="text-xl"/> Download Resume
         </motion.a>
 
-        <motion.a href="/Mathavaraj.j-Resume.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-5 py-2 rounded-lg hover:bg-green-700 transition duration-300"
+        <motion.a href="/MATHAVARAJ-J--Resume.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-600 text-white px-5 py-2 rounded-lg hover:bg-green-700 transition duration-300"
         whileHover={{ scale: 1.1 }}
         >
             <HiEye className="text-2xl"/> View Resume
