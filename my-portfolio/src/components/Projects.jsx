@@ -7,7 +7,7 @@ import { useState } from "react";
 
 const Projects = () => {
 
-    const [stack, setStack] = useState("node");
+    const [stack, setStack] = useState("spring");
 
 return (
     <section className="py-20 bg-gray-100 dark:bg-gray-700 text-center px-4 sm:px-8 md:px-12 lg:px-20">
@@ -24,7 +24,7 @@ return (
                     <h3 className="text-2xl sm:text-3xl font-bold text-blue-600 mb-4 dark:text-black/70">Leads Management with Zoho CRM Integration</h3>
                     <p className="text-gray-700 dark:text-gray-300 mb-6 px-10 text-sm sm:text-base md:text-lg">A full-stack Leads Management System integrated with Zoho CRM, allowing users to analytics, CRUD operations, and export options. All lead data is fully synced with Zoho CRM, making this a complete and professional lead-tracking solution.</p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
-                        <h3 className="flex items-center px-20 gap-2 text-xl font-semibold">
+                        <h3 className="flex items-center px-20 gap-2 text-xl font-bold">
                         <FaUserCog /> Features
                         </h3>
                         <ul className="list-disc text-start">
@@ -38,14 +38,14 @@ return (
                         </ul>
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
-                        <h3 className="flex items-center px-20 gap-2 text-xl font-semibold">
+                        <h3 className="flex items-center px-20 gap-2 text-xl font-bold">
                         <FaCodeBranch /> Tech Stack
                         </h3>
                         <ul className="list-disc text-start">
-                        <li>Frontend: React.js, Axios, TailwindCSS, Chart.js</li>
-                        <li>Backend: Node.js, Express.js, Axios</li>
-                        <li>Export: FileSaver.js, XLSX library, jsPDF</li>
-                        <li>External Service: Zoho CRM API, Zoho OAuth</li>
+                        <li><span className="font-semibold">Frontend:</span>React.js, Axios, TailwindCSS, Chart.js</li>
+                        <li><span className="font-semibold">Backend:</span> Node.js, Express.js, Axios</li>
+                        <li><span className="font-semibold">Export:</span> FileSaver.js, XLSX library, jsPDF</li>
+                        <li><span className="font-semibold">External Service:</span> Zoho CRM API, Zoho OAuth</li>
                         </ul>
                     </div>
                     <p className="text-gray-700 dark:text-gray-300 mb-6 px-10 text-sm sm:text-base md:text-lg">I learned how to integrate third-party services like Zoho CRM using secure APIs and OAuth token handling. I improved my ability to build full CRUD workflows with real-time synchronization between frontend, backend, and CRM. I gained experience in creating advanced UI features such as filtering, sorting, search, analytics charts, and data export. This project strengthened my full-stack skills and taught me how to design scalable, user-friendly lead management systems.</p>
@@ -80,7 +80,7 @@ return (
                     <h3 className="text-2xl sm:text-3xl font-bold text-blue-600 mb-4 dark:text-black/70">Expense Tracker Web App</h3>
                     <p className="text-gray-700 dark:text-gray-300 mb-6 px-10 text-sm sm:text-base md:text-lg">Developed a full-stack Expense Tracker web application to manage daily income and expenses. Implemented CRUD operations for transactions,summary charts, and persistent data storage using MongoDB. Integrated RESTful APIs for seamless data management.</p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
-                        <h3 className="flex items-center px-20 gap-2 text-xl font-semibold">
+                        <h3 className="flex items-center px-20 gap-2 text-xl font-bold">
                         <FaUserCog /> Features
                         </h3>
                         <ul className="list-disc text-start">
@@ -92,14 +92,14 @@ return (
                         </ul>
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
-                        <h3 className="flex items-center px-20 gap-2 text-xl font-semibold">
+                        <h3 className="flex items-center px-20 gap-2 text-xl font-bold">
                         <FaCodeBranch /> Tech Stack
                         </h3>
                         <ul className="list-disc text-start">
-                        <li>Frontend: React.js, Redux Toolkit, Axios, TailwindCSS, Recharts</li>
-                        <li>Backend: Node.js, Express.js, CORS</li>
-                        <li>Database: MongoDB</li>
-                        <li>Authentication: JWT, bcrypt.js</li>
+                        <li><span className="font-semibold">Frontend:</span> React.js, Redux Toolkit, Axios, TailwindCSS, Recharts</li>
+                        <li><span className="font-semibold">Backend:</span> Node.js, Express.js, CORS</li>
+                        <li><span className="font-semibold">Database:</span> MongoDB</li>
+                        <li><span className="font-semibold">Authentication:</span> JWT, bcrypt.js</li>
                         </ul>
                     </div>
                     <p className="text-gray-700 dark:text-gray-300 mb-6 px-10 text-sm sm:text-base md:text-lg">I learned how to design and develop a complete MERN stack application with secure authentication, interactive charts. I gained practical experience in backend API development and handling real-world errors</p>
@@ -134,7 +134,7 @@ return (
                     <h3 className="text-2xl sm:text-3xl font-bold text-blue-600 mb-4 dark:text-black/70">Job Application Form</h3>
                     <p className="text-gray-700 dark:text-gray-300 mb-6 px-10 text-sm sm:text-base md:text-lg">A job application form that collects user details such as name, email, experience, resume and data submission to a backend API. Built with React and Node.js.</p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
-                        <h3 className="flex items-center px-20 gap-2 text-xl font-semibold">
+                        <h3 className="flex items-center px-20 gap-2 text-xl font-bold">
                         <FaUserCog /> Features
                         </h3>
                         <ul className="list-disc text-start">
@@ -146,13 +146,13 @@ return (
                         </ul>
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
-                        <h3 className="flex items-center px-20 gap-2 text-xl font-semibold">
+                        <h3 className="flex items-center px-20 gap-2 text-xl font-bold">
                         <FaCodeBranch /> Tech Stack
                         </h3>
                         <ul className="list-disc text-start">
-                        <li>Backend: Node.js, Express.js</li>
-                        <li>Database: MongoDB</li>
-                        <li>Frontend: React.js, Redux Toolkit, Axios, TailwindCSS</li>
+                        <li><span className="font-semibold">Backend:</span> Node.js, Express.js</li>
+                        <li><span className="font-semibold">Database:</span> MongoDB</li>
+                        <li><span className="font-semibold">Frontend:</span> React.js, Redux Toolkit, Axios, TailwindCSS</li>
                         </ul>
                     </div>
                     <p className="text-gray-700 dark:text-gray-300 mb-6 px-10 text-sm sm:text-base md:text-lg">Building this project taught me controlled components, multidata selection and backend integration for handling file uploads and file downloads.</p>
@@ -187,7 +187,7 @@ return (
                     <h3 className="text-2xl sm:text-3xl font-bold text-blue-600 mb-4 dark:text-black/70">Weather And Real Time App</h3>
                     <p className="text-gray-700 dark:text-gray-300 mb-6 px-10 text-sm sm:text-base md:text-lg">A real-time weather and time tracking application that displays current temperature, humidity, wind speed for any country's cities and local time for any country. Built using React, Redux, react countries-and-timezones and Open-meteo API.</p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
-                        <h3 className="flex items-center px-20 gap-2 text-xl font-semibold">
+                        <h3 className="flex items-center px-20 gap-2 text-xl font-bold">
                         <FaUserCog /> Features
                         </h3>
                         <ul className="list-disc text-start">
@@ -200,14 +200,14 @@ return (
                         </ul>
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
-                        <h3 className="flex items-center px-20 gap-2 text-xl font-semibold">
+                        <h3 className="flex items-center px-20 gap-2 text-xl font-bold">
                         <FaCodeBranch /> Tech Stack
                         </h3>
                         <ul className="list-disc text-start">
-                        <li>Frontend: React.js, Redux Toolkit, Axios, TailwindCSS</li>
-                        <li>API: Open-Meteo API</li>
-                        <li>Data Visualization: react-clock, react-calendar</li>
-                        <li>Animations: Framer Motion</li>
+                        <li><span className="font-semibold">Frontend:</span> React.js, Redux Toolkit, Axios, TailwindCSS</li>
+                        <li><span className="font-semibold">API:</span> Open-Meteo API</li>
+                        <li><span className="font-semibold">Data Visualization:</span> react-clock, react-calendar</li>
+                        <li><span className="font-semibold">Animations:</span> Framer Motion</li>
                         <li>Real-time updates using useEffect + setInterval</li>
                         </ul>
                     </div>
@@ -243,7 +243,7 @@ return (
                     <h3 className="text-2xl sm:text-3xl font-bold text-blue-600 mb-4 dark:text-black/70">Login with JWT (JSON Web Token)</h3>
                     <p className="text-gray-700 dark:text-gray-300 mb-6 px-10 text-sm sm:text-base md:text-lg">Built a secure user authentication system using JWT (JSON Web Token) and Node.js. Implemented user registration, login, and protected routes with token-based authentication.</p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
-                        <h3 className="flex items-center px-20 gap-2 text-xl font-semibold">
+                        <h3 className="flex items-center px-20 gap-2 text-xl font-bold">
                         <FaUserCog /> Features
                         </h3>
                         <ul className="list-disc text-start">
@@ -254,14 +254,14 @@ return (
                         </ul>
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
-                        <h3 className="flex items-center px-20 gap-2 text-xl font-semibold">
+                        <h3 className="flex items-center px-20 gap-2 text-xl font-bold">
                         <FaCodeBranch /> Tech Stack
                         </h3>
                         <ul className="list-disc text-start">
-                        <li>Frontend: React.js, Axios, TailwindCSS</li>
-                        <li>Backend: Node.js, Express.js, CORS</li>
-                        <li>Database: MongoDB</li>
-                        <li>Authentication: JWT, bcrypt.js</li>
+                        <li><span className="font-semibold">Frontend:</span> React.js, Axios, TailwindCSS</li>
+                        <li><span className="font-semibold">Backend:</span> Node.js, Express.js, CORS</li>
+                        <li><span className="font-semibold">Database:</span> MongoDB</li>
+                        <li><span className="font-semibold">Authentication:</span> JWT, bcrypt.js</li>
                         </ul>
                     </div>
                     <p className="text-gray-700 dark:text-gray-300 mb-6 px-10 text-sm sm:text-base md:text-lg">This project demonstrates how I implemented a secure authentication system using JWT (JSON Web Token) in a MERN stack application. Users can register, log in, and access protected routes only when a valid token is present.</p>
@@ -296,7 +296,7 @@ return (
                     <h3 className="text-2xl sm:text-3xl font-bold text-blue-600 mb-4 dark:text-black/70">User Management System</h3>
                     <p className="text-gray-700 dark:text-gray-300 mb-6 px-10 text-sm sm:text-base md:text-lg">A full-stack web application that allows creating, reading, updating and deleting user details using RESTful APIs. Built with React, Node, Express, and MongoDB.</p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
-                        <h3 className="flex items-center px-20 gap-2 text-xl font-semibold">
+                        <h3 className="flex items-center px-20 gap-2 text-xl font-bold">
                         <FaUserCog /> Features
                         </h3>
                         <ul className="list-disc text-start">
@@ -307,13 +307,13 @@ return (
                         </ul>
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
-                        <h3 className="flex items-center px-20 gap-2 text-xl font-semibold">
+                        <h3 className="flex items-center px-20 gap-2 text-xl font-bold">
                         <FaCodeBranch /> Tech Stack
                         </h3>
                         <ul className="list-disc text-start">
-                        <li>Backend: Node.js, Express.js</li>
-                        <li>Database: MongoDB</li>
-                        <li>Frontend: React.js, Redux Toolkit, Axios, TailwindCSS</li>
+                        <li><span className="font-semibold">Backend:</span> Node.js, Express.js</li>
+                        <li><span className="font-semibold">Database:</span> MongoDB</li>
+                        <li><span className="font-semibold">Frontend:</span> React.js, Redux Toolkit, Axios, TailwindCSS</li>
                         </ul>
                     </div>
                     <p className="text-gray-700 dark:text-gray-300 mb-6 px-10 text-sm sm:text-base md:text-lg">Implementing CRUD operations helped me understand RESTful API design, frontend-backend communication, and state management.</p>
