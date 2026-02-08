@@ -2,71 +2,22 @@ import { FaUserCog, FaCodeBranch } from "react-icons/fa";
 import { MdOndemandVideo  } from "react-icons/md";
 import MotionWrapper from "./motionWrapper";
 import { FiExternalLink } from "react-icons/fi"; 
-
+import StackToggle from "./Toggle";
+import { useState } from "react";
 
 const Projects = () => {
 
+    const [stack, setStack] = useState("node");
 
 return (
     <section className="py-20 bg-gray-100 dark:bg-gray-700 text-center px-4 sm:px-8 md:px-12 lg:px-20">
         <h2 className="text-3xl sm:text-4xl font-bold mb-12">Projects</h2>
-        <div className="grid grid-cols-1 gap-12 max-w-6xl mx-auto">
-                <MotionWrapper
-                    initial={{ opacity: 0, x:-500 }}
-                    whileInView={{ opacity: 1, x:0 }}
-                    transition={{ duration: 1.5 }}>
-                    <div className="bg-gray-300 dark:bg-gray-600 p-6 sm:p-8 md:p-10 rounded-xl shadow-md">
-                    <h3 className="text-2xl sm:text-3xl font-bold text-blue-600 mb-4 dark:text-black/70">Expense Tracker Web App</h3>
-                    <p className="text-gray-700 dark:text-gray-300 mb-6 px-10 text-sm sm:text-base md:text-lg">Developed a full-stack Expense Tracker web application to manage daily income and expenses. Implemented CRUD operations for transactions,summary charts, and persistent data storage using MongoDB. Integrated RESTful APIs for seamless data management.</p>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
-                        <h3 className="flex items-center px-20 gap-2 text-xl font-semibold">
-                        <FaUserCog /> Features
-                        </h3>
-                        <ul className="list-disc text-start">
-                            <li>Implemented CRUD operations with RESTful APIs.</li>
-                            <li>Visualize income vs expenses with pie charts using Recharts.</li>
-                            <li>Secure Login and Logout using JWT (JSON Web Token). Password encryption using bcrypt. Token-based authorization for protected routes.</li>
-                            <li>Show the income and expense data with table view.</li>
-                            <li>Integrated Redux for state management.</li>
-                        </ul>
-                    </div>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
-                        <h3 className="flex items-center px-20 gap-2 text-xl font-semibold">
-                        <FaCodeBranch /> Tech Stack
-                        </h3>
-                        <ul className="list-disc text-start">
-                        <li>Frontend: React.js, Redux Toolkit, Axios, TailwindCSS, Recharts</li>
-                        <li>Backend: Node.js, Express.js, CORS</li>
-                        <li>Database: MongoDB</li>
-                        <li>Authentication: JWT, bcrypt.js</li>
-                        </ul>
-                    </div>
-                    <p className="text-gray-700 dark:text-gray-300 mb-6 px-10 text-sm sm:text-base md:text-lg">I learned how to design and develop a complete MERN stack application with secure authentication, interactive charts. I gained practical experience in backend API development and handling real-world errors</p>
-                    <div className="flex flex-wrap justify-center gap-4 mt-6">
-                        <a
-                        href="https://drive.google.com/file/d/1bx0fhlJmk01QVbtnuXuKWgbpzVMWctDb/view?usp=drive_link"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center justify-center gap-2 px-5 py-2 bg-blue-500 text-white rounded-xl glow-effect-button hover:bg-blue-700 transition-all text-sm sm:text-base"
-                        >
-                        <MdOndemandVideo className="text-xl"/>
-                        Quick Demo
-                        </a>
-                        <a
-                        href="https://github.com/Mathavaraj1219/Expense-Tracker"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center justify-center gap-2 px-5 py-2 bg-gray-400 text-white rounded-xl glow-effect-button hover:bg-gray-500 transition-all text-sm sm:text-base"
-                        >
-                        <FiExternalLink className="text-xl"/>
-                        View Code
-                        </a>
-                    </div>
-                    </div>
-                </MotionWrapper>
+        <StackToggle stack={stack} setStack={setStack}/>
 
+        {stack === "node" && (
+        <div className="grid grid-cols-1 gap-12 max-w-6xl mx-auto">
                 <MotionWrapper 
-                    initial={{ opacity: 0, x:500 }}
+                    initial={{ opacity: 0, x:-500 }}
                     whileInView={{ opacity: 1, x:0 }}
                     transition={{ duration: 1.5 }}>
                     <div className="bg-gray-300 dark:bg-gray-600 p-6 sm:p-8 md:p-10 rounded-xl shadow-md">
@@ -110,6 +61,60 @@ return (
                         </a>
                         <a
                         href="https://github.com/Mathavaraj1219/leads_management_with_zoho_CRM_integration"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center justify-center gap-2 px-5 py-2 bg-gray-400 text-white rounded-xl glow-effect-button hover:bg-gray-500 transition-all text-sm sm:text-base"
+                        >
+                        <FiExternalLink className="text-xl"/>
+                        View Code
+                        </a>
+                    </div>
+                    </div>
+                </MotionWrapper>
+
+                <MotionWrapper
+                    initial={{ opacity: 0, x:500 }}
+                    whileInView={{ opacity: 1, x:0 }}
+                    transition={{ duration: 1.5 }}>
+                    <div className="bg-gray-300 dark:bg-gray-600 p-6 sm:p-8 md:p-10 rounded-xl shadow-md">
+                    <h3 className="text-2xl sm:text-3xl font-bold text-blue-600 mb-4 dark:text-black/70">Expense Tracker Web App</h3>
+                    <p className="text-gray-700 dark:text-gray-300 mb-6 px-10 text-sm sm:text-base md:text-lg">Developed a full-stack Expense Tracker web application to manage daily income and expenses. Implemented CRUD operations for transactions,summary charts, and persistent data storage using MongoDB. Integrated RESTful APIs for seamless data management.</p>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
+                        <h3 className="flex items-center px-20 gap-2 text-xl font-semibold">
+                        <FaUserCog /> Features
+                        </h3>
+                        <ul className="list-disc text-start">
+                            <li>Implemented CRUD operations with RESTful APIs.</li>
+                            <li>Visualize income vs expenses with pie charts using Recharts.</li>
+                            <li>Secure Login and Logout using JWT (JSON Web Token). Password encryption using bcrypt. Token-based authorization for protected routes.</li>
+                            <li>Show the income and expense data with table view.</li>
+                            <li>Integrated Redux for state management.</li>
+                        </ul>
+                    </div>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
+                        <h3 className="flex items-center px-20 gap-2 text-xl font-semibold">
+                        <FaCodeBranch /> Tech Stack
+                        </h3>
+                        <ul className="list-disc text-start">
+                        <li>Frontend: React.js, Redux Toolkit, Axios, TailwindCSS, Recharts</li>
+                        <li>Backend: Node.js, Express.js, CORS</li>
+                        <li>Database: MongoDB</li>
+                        <li>Authentication: JWT, bcrypt.js</li>
+                        </ul>
+                    </div>
+                    <p className="text-gray-700 dark:text-gray-300 mb-6 px-10 text-sm sm:text-base md:text-lg">I learned how to design and develop a complete MERN stack application with secure authentication, interactive charts. I gained practical experience in backend API development and handling real-world errors</p>
+                    <div className="flex flex-wrap justify-center gap-4 mt-6">
+                        <a
+                        href="https://drive.google.com/file/d/1bx0fhlJmk01QVbtnuXuKWgbpzVMWctDb/view?usp=drive_link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center justify-center gap-2 px-5 py-2 bg-blue-500 text-white rounded-xl glow-effect-button hover:bg-blue-700 transition-all text-sm sm:text-base"
+                        >
+                        <MdOndemandVideo className="text-xl"/>
+                        Quick Demo
+                        </a>
+                        <a
+                        href="https://github.com/Mathavaraj1219/Expense-Tracker"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center justify-center gap-2 px-5 py-2 bg-gray-400 text-white rounded-xl glow-effect-button hover:bg-gray-500 transition-all text-sm sm:text-base"
@@ -333,43 +338,55 @@ return (
                         </a>
                     </div>
                     </div>
-                </MotionWrapper>
+                </MotionWrapper> 
+        </div> )}
 
+        {stack === "spring" && (
+            <div className="grid grid-cols-1 gap-12 max-w-6xl mx-auto">
                 <MotionWrapper
-                    initial={{ opacity: 0, x: -500 }}
+                    initial={{ opacity: 0, x:500 }}
                     whileInView={{ opacity: 1, x:0 }}
                     transition={{ duration: 1.5 }}>
                     <div className="bg-gray-300 dark:bg-gray-600 p-6 sm:p-8 md:p-10 rounded-xl shadow-md">
-                    <h3 className="text-2xl sm:text-3xl font-bold text-blue-600 mb-4 dark:text-black/70">Personal Portfolio Website</h3>
-                    <p className="text-gray-700 dark:text-gray-300 mb-6 px-10 text-sm sm:text-base md:text-lg">A responsive, interactive portfolio built with React, TailwindCSS, and Framer Motion. Includes sections for projects, contact, resume, and smooth scroll animations.</p>
+                    <h3 className="text-2xl sm:text-3xl font-bold text-blue-600 mb-4 dark:text-black/70">E-Commerce Application</h3>
+                    <p className="text-gray-700 dark:text-gray-300 mb-6 px-10 text-sm sm:text-base md:text-lg">Developed a full-stack E-commerce web application that enables users to browse products, manage carts, place orders, and make payments. Built RESTful APIs for product, user, order, and payment management with persistent data storage and role-based access control.</p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
-                        <h3 className="flex items-center px-20 gap-2 text-xl font-semibold">
+                        <h3 className="flex items-center px-20 gap-2 text-xl font-bold">
                         <FaUserCog /> Features
                         </h3>
                         <ul className="list-disc text-start">
-                            <li>Clean and responsive UI with dark/light mode.</li>
-                            <li>Smooth scroll and section-based navigation.</li>
-                            <li>Each section animated by framer motion.</li>
-                            <li>Contact form using EmailJS.</li>
-                            <li>Resume PDF download & open-in-new-tab option.</li>
+                            <li>Implemented CRUD operations for products, carts, and orders using RESTful APIs.</li>
+                            <li>User authentication and authorization using JWT (JSON Web Token) with role-based access (User/Admin).</li>
+                            <li>Secure login and logout with password encryption using bcrypt. Protected routes for authenticated users and admins.</li>
+                            <li>Add to cart, update quantity, remove items, and place orders.</li>
+                            <li>Order status management (CREATED, PAID, SHIPPED, DELIVERED, CANCELED).</li>
+                            <li>Admin dashboard to add and delete products.</li>
                         </ul>
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
-                        <h3 className="flex items-center px-20 gap-2 text-xl font-semibold">
+                        <h3 className="flex items-center px-20 gap-2 text-xl font-bold">
                         <FaCodeBranch /> Tech Stack
                         </h3>
                         <ul className="list-disc text-start">
-                        <li>Frontend: React.js, TailwindCSS</li>
-                        <li>Animations: Framer Motion</li>
-                        <li>Routing: React Router DOM + react-scroll</li>
-                        <li>Contact: EmailJS integration</li>
-                        <li>Deployment: Netlify</li>
+                        <li><span className="font-semibold">Frontend:</span> React.js, Redux Toolkit, Axios, TailwindCSS</li>
+                        <li><span className="font-semibold">Backend:</span> Java, Spring Boot, RestAPI, Spring Data JPA</li>
+                        <li><span className="font-semibold">Database:</span> MySQL</li>
+                        <li><span className="font-semibold">Authentication:</span> JSON Web Token</li>
                         </ul>
                     </div>
-                    <p className="text-gray-700 dark:text-gray-300 mb-6 px-10 text-sm sm:text-base md:text-lg">Building my own portfolio taught me reusable component structure, animations, emailjs integration and Deployment.</p>
-                    <div className="flex justify-center mt-6">
+                    <p className="text-gray-700 dark:text-gray-300 mb-6 px-10 text-sm sm:text-base md:text-lg">I learned how to design and develop a scalable full-stack E-commerce application with secure authentication and authorization. I gained hands-on experience in backend API design, database relationships, Redux state management, and handling real-world business logic such as cart management, order flow, and secure payments.</p>
+                    <div className="flex flex-wrap justify-center gap-4 mt-6">
                         <a
-                        href="https://github.com/Mathavaraj1219/My-Portfolio"
+                        href="https://drive.google.com/file/d/1rGHcl7naAQfbq3bCrh6tpu4kQTV2qLdw/view?usp=sharing"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center justify-center gap-2 px-5 py-2 bg-blue-500 text-white rounded-xl glow-effect-button hover:bg-blue-700 transition-all text-sm sm:text-base"
+                        >
+                        <MdOndemandVideo className="text-xl"/>
+                        Quick Demo
+                        </a>
+                        <a
+                        href="https://github.com/Mathavaraj1219/E-Commerce-Backend"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center justify-center gap-2 px-5 py-2 bg-gray-400 text-white rounded-xl glow-effect-button hover:bg-gray-500 transition-all text-sm sm:text-base"
@@ -379,8 +396,9 @@ return (
                         </a>
                     </div>
                     </div>
-                </MotionWrapper>                
-        </div>
+                </MotionWrapper>
+            </div>
+        )}
     </section>
     );
 };

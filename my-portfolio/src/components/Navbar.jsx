@@ -58,7 +58,7 @@ return (
               </h3>
 
               <p className="bg-gradient-to-r from-red-400 via-green-600 via-blue-600 via-yellow-600 to-purple-600 bg-clip-text text-transparent text-center text-sm font-semibold mt-1">
-                Full Stack Developer | React & Node.js Enthusiast
+                Full Stack Developer
               </p>
 
               <p className="flex items-center justify-center gap-2 text-center text-sm mt-5">
