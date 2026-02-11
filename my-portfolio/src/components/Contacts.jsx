@@ -64,9 +64,9 @@ return (
     <section className="py-20 px-4 sm:px-8 md:px-12 bg-gray-100 dark:bg-gray-700 text-center">
         <h2 className="text-3xl sm:text-4xl font-bold mb-10">Contact Me</h2>
         <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-4 max-w-md mx-auto w-full">
-            <input type="text" name="name" placeholder="Your Name" required className="border p-2 rounded w-full" />
-            <input type="email" name="email" placeholder="Your Email" required className="border p-2 rounded w-full" />
-            <textarea name="message" placeholder="Your Message" required className="border p-2 rounded w-full min-h-[150px]" />
+            <input type="text" name="name" placeholder="Your Name" required className="border dark:text-black p-2 rounded w-full" />
+            <input type="email" name="email" placeholder="Your Email" required className="border dark:text-black p-2 rounded w-full" />
+            <textarea name="message" placeholder="Your Message" required className="border dark:text-black p-2 rounded w-full min-h-[150px]" />
             <button
                 type="submit"
                 disabled={loading}
