@@ -397,6 +397,62 @@ return (
                     </div>
                     </div>
                 </MotionWrapper>
+
+                <MotionWrapper
+                    initial={{ opacity: 0, x:-500 }}
+                    whileInView={{ opacity: 1, x:0 }}
+                    transition={{ duration: 1.5 }}>
+                    <div className="bg-gray-300 dark:bg-gray-600 p-6 sm:p-8 md:p-10 rounded-xl shadow-md">
+                    <h3 className="text-2xl sm:text-3xl font-bold text-blue-600 mb-4 dark:text-black/70">Course Registration Application</h3>
+                    <p className="text-gray-700 dark:text-gray-300 mb-6 px-10 text-sm sm:text-base md:text-lg">The Course Registration System is a full-stack web application designed to simplify the process of managing courses and student enrollments. It allows administrators to create and manage courses while enabling students to browse available courses and register for them through an intuitive user interface.</p>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
+                        <h3 className="flex items-center px-20 gap-2 text-xl font-bold">
+                        <FaUserCog /> Features
+                        </h3>
+                        <ul className="list-disc text-start">
+                            <li>Implemented role-based protected routes to restrict access based on user roles.</li>
+                            <li>Used Redux for centralized state management to efficiently handle course and enrollment data.</li>
+                            <li>Developed dynamic dashboards for both admin and student roles.</li>
+                            <li>Integrated REST APIs to connect the frontend with backend services.</li>
+                            <li>Designed a responsive and modern UI for better user experience.</li>
+                            <li>Structured the application using modular and reusable components.</li>
+                        </ul>
+                    </div>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
+                        <h3 className="flex items-center px-20 gap-2 text-xl font-bold">
+                        <FaCodeBranch /> Tech Stack
+                        </h3>
+                        <ul className="list-disc text-start">
+                        <li><span className="font-semibold">Frontend:</span> React, Redux, React Router, Axios, TailwindCSS</li>
+                        <li><span className="font-semibold">Backend:</span> Java, Spring Boot, RestAPI, Spring Data JPA</li>
+                        <li><span className="font-semibold">Database:</span> MySQL</li>
+                        <li><span className="font-semibold">Authentication:</span> JSON Web Token</li>
+                        </ul>
+                    </div>
+                    <p className="text-gray-700 dark:text-gray-300 mb-6 px-10 text-sm sm:text-base md:text-lg">Developing the Course Registration System helped me gain practical experience in building a full-stack web application. Through this project, I improved my understanding of modern frontend frameworks, backend development, state management, and API integration.</p>
+                    <div className="flex flex-wrap justify-center gap-4 mt-6">
+                        <a
+                        href="https://drive.google.com/file/d/1lzgadyr5JFy6749M6s3bTWIxYvZHUQLN/view?usp=sharing"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center justify-center gap-2 px-5 py-2 bg-blue-500 text-white rounded-xl glow-effect-button hover:bg-blue-700 transition-all text-sm sm:text-base"
+                        >
+                        <MdOndemandVideo className="text-xl"/>
+                        Quick Demo
+                        </a>
+                        <a
+                        href="https://github.com/Mathavaraj1219/Course_Registration_Backend"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center justify-center gap-2 px-5 py-2 bg-gray-400 text-white rounded-xl glow-effect-button hover:bg-gray-500 transition-all text-sm sm:text-base"
+                        >
+                        <FiExternalLink className="text-xl"/>
+                        View Code
+                        </a>
+                    </div>
+                    </div>
+                </MotionWrapper>
+
             </div>
         )}
     </section>
