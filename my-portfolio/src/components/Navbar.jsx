@@ -88,7 +88,6 @@ return (
             </motion.div>
           )}
         </AnimatePresence>
-        <h1 className="text-2xl md:text-2xl font-bold text-blue-600">MyPortfolio</h1>
         </div>
         <div className="hidden md:flex gap-10 text-gray-700 dark:text-gray-200">
             <Link to="about" smooth duration={500} className="flex items-center justify-center gap-2 text-bold cursor-pointer hover:text-blue-600"><FaUserCircle className="text-xl"/>About</Link>
